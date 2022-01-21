@@ -131,10 +131,11 @@ select {
   appearance: none;
   outline: 0;
   box-shadow: none;
-  border: 0 !important;
+  border: 0 ;
   background-image: none;
 }
 .select {
+  border: 1px solid rgb(163, 153, 153) ;
   margin: 1rem;
   position: relative;
   overflow: hidden;
