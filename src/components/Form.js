@@ -27,9 +27,9 @@ function Form(props) {
       </button>
       <div className="select">
         <select name="todos" className="filter-todo" onClick={statusHandler}>
-          <option value="all">All</option>
-          <option value="completed">Completed</option>
-          <option value="uncompleted">Uncompleted</option>
+          <option value="all">全部</option>
+          <option value="completed">已完成</option>
+          <option value="uncompleted">未完成</option>
         </select>
       </div>
     </form>
